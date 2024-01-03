@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+   *{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #505d61;
+    line-height: 50px;
+    padding: 0px 50px;
+    position: fixed;
+    z-index: 1;
+}
+section{
+    padding: 2rem 7%;
+
+
+}
+nav .logo{
+    font-size: 30px;
+    font-size: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: #c0d96f;
+
+}
+nav ul li .active {
+    color: #c0d96f;
+}
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(wonder.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+section{
+    padding: 2rem ;
+}
+content{
+    max-width: 60rem;
+}
+ .he{
+    font-size:6rem;
+    text-transform: uppercase;
+    color: rgb(241, 10, 241);
+}
+ .pp{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: rgb(241, 10, 241);
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.menu .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: rgb(184, 30, 30);
+    font-size: 2rem;
+    padding:1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: rgb(81, 67, 148);
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.menu .box-container .box:hover{
+    background:rgb(158, 120, 14);
+}
+
+.menu .box-container .box:hover > *{
+    color:var(--black);
+}
+.btn{
+    position: relative;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 50;
+    border: 2px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    background-color: rgb(223, 104, 35);
+    text-decoration: none;
+     
+
+}
+.footer{
+    background:var(--black);
+    text-align: center;
+    background-color: #383838;
+  
+}
+
+.footer .share{
+    padding:1rem 0;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:white;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    gap:2rem;
+    
+}
+
+.footer .links a{
+    padding:.7rem 2rem;
+    color:white;
+    border:var(--border);
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+/*.footer .credit{
+    font-size: 2rem;
+    color:rgb(8, 8, 8);
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}*/
+.footer .links1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:3rem 0;
+  gap:2rem;
+}
+
+.footer .links1 a{
+  padding:.7rem 2rem;
+  color:white;
+  border:var(--border);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer .links1 a:hover{
+  background:var(--main-color);
+}
+
